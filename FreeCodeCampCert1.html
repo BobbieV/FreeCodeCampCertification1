@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign up for our newsletter</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <article><fieldset>
+      <h1 id="title">Sign up for our newsletter! </h1>
+      <p id="description">Stay up to date on random website info</p>
+    <form id="survey-form" required>
+      <label id="name-label">Name: </label><input type="text" id="name" required placeholder="Type your name here:">
+      <br>
+      <label id="email-label">Email: </label><input id="email" type="email" required placeholder="Type your email here:">
+      <br>
+      <label id="number-label">Age: </label><input type="number" id="number" min="13" max="120" placeholder="18">
+      <br>
+      <label for="source">How did you hear about us?</label><select id="dropdown" class="dropdown">
+      <option>Select one</option>
+        <option>Radio</option>
+        <option>Television</option>
+        <option>Social Media</option>
+        <option>Other</option>
+      </select>
+      <fieldset class="chooseInfo">
+        I would like to receive updates about:
+        <br><br>
+        <label for="discounts"> Discounts </label><input type="checkbox" value="value">
+        <br>
+      <label for="special-offers">Special Offers </label><input type="checkbox" value="value">
+      <br>
+      <label for="membershipOpportunities">Membership Opportunities</label>
+      <label for="events"><input type="checkbox" value="value">
+      <br>
+      <label for="events">Events </label><input type="checkbox" value="value">
+      </fieldset>
+      
+      <label for="additionalComments">Additional Comments: </label>
+      <br><textarea class="additionalComments" rows="5" cols="38" name="additionalComments"id="additionalComments"></textarea>
+      <br>
+      I agree to the <a href="www.example.com">terms and conditions:</a>
+      <label for ="termsAndConditions">Yes</label>
+      <input type="radio" id="Yes" name="termsAndConditions" value="value"></radio>
+      <label for="termsAndConditions">No</label>
+      <input type="radio" id="No" name="termsAndConditions" value="value" selected></radio>
+      <br>
+  <div class="button">
+      <button type="submit" class="button" id="submit">Submit</submit>
+      </div>
+      </article></fieldset>
+    </form>
+</body>

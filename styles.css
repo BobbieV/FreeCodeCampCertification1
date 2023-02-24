@@ -1,0 +1,48 @@
+body {
+    height: -100px; 
+    line-height: 1.5;
+    background-color: #183A1D;
+  }
+  p {
+    text-align: center;
+  }
+  fieldset {
+    padding: 20px; 
+    line-height: 1.8;
+    background-color: #FEFBE9;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #F0A04B;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #F0A04B;
+    color: #183A1D;
+    align: center;
+  }
+  
+  fieldset.chooseInfo {
+    line-height: 1.;
+    padding: 10px;
+    text: 20px;
+    background-color: #E1EEDD;
+  }
+  article {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .button {
+    padding: 10px;
+    text-align: center;
+  }
+  .dropdown {
+    margin-bottom: 30px;
+  }
+textarea {
+    background-color: #E1EEDD;
+}
